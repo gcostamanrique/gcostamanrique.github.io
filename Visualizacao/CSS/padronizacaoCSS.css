@@ -87,12 +87,12 @@
     background-color: #892CDC !important;
 }
 
-#confirmarCopiaEmail {
+#ConfirmarCopiaEmail {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     display: inline;
 }
 
-#confirmarCopiaEmail.show {
+#ConfirmarCopiaEmail.show {
     opacity: 1;
 }

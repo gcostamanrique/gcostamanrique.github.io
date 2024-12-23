@@ -1,3 +1,13 @@
 {
-    "nome" : "Guilherme Costa Manrique Testando"
+    "nomeperfil" : "Guilherme Costa Manrique",
+    "imagemsrc" : "Visualizacao/Imagens/01GuilhermeManrique.jpeg",
+    "imagemdescricao" : "Imagem Guilherme Costa Manrique",
+    "apresentacaoperfil" : "Olá, ainda estou desenvolvendo a página.",
+    "numerowhatsapp" : "+55 11 98157-2382",
+    "linkwhatsapp" : "https://wa.me/5511981572382/?text=Ol%C3%A1%20Guilherme%21%20Localizei%20seu%20curr%C3%ADculo%20atrav%C3%A9s%20do%20GitHub.",
+    "nomelinkedin" : "gcostamanrique",
+    "linklinkedin" : "https://www.linkedin.com/in/guilherme-manrique",
+    "nomegithub" : "gcostamanrique",
+    "linkgithub" : "https://github.com/gcostamanrique",
+    "email" : "gcostamanrique@gmail.com"
 }

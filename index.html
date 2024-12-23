@@ -54,24 +54,20 @@
                 <div class="container d-flex flex-column justify-content-center align-items-center">
                     
                     <div class="text-center m-2 larguraPercentualTotal">
-                        <p class="padronizacaoTagPTitulo01">
-                            Guilherme Costa Manrique
-                        </p>    
+                        <p id="NomePerfil" class="padronizacaoTagPTitulo01"></p>    
                     </div>    
                     
                     <div class="row justify-content-center m-3 larguraPercentualParte">
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-6">
-                            <img                             
-                                class="border border-3 border-white rounded-5 img-fluid" 
-                                src="Visualizacao/Imagens/01GuilhermeManrique.jpeg" 
-                                alt="Imagens Guilherme Manrique">
+                            <img
+                                id="ImagemPerfil"
+                                class="border border-3 border-white rounded-5 img-fluid"
+                            />
                         </div>
                         
                         <div class="d-flex flex-column justify-content-center align-items-center col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-6">
 
-                            <p class="mt-3 mb-3 padronizacaoTagPTexto">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies erat lobortis leo ultricies, nec molestie erat faucibus. Fusce ullamcorper sapien at lectus congue scelerisque. Fusce mollis risus sed dui fermentum, in ornare neque feugiat. Proin euismod arcu magna, dapibus suscipit risus tincidunt vel. Duis ultrices est nec nisl finibus cursus. Mauris pellentesque sapien vestibulum tincidunt ullamcorper. Cras feugiat gravida nisi id semper. Phasellus id ligula tempus, semper orci non, laoreet eros. Pellentesque at dolor semper, luctus purus imperdiet, commodo nulla. Duis convallis bibendum dignissim. Ut malesuada porta consectetur. Mauris nisi ligula, feugiat sit amet elementum sed, placerat eget nibh.
-                            </p>
+                            <p id="ApresentacaoPerfil" class="mt-3 mb-3 padronizacaoTagPTexto"></p>
 
                             <a id="contatoModal"                                                             
                                 class="corPadraoFundoAmarelo btn border border-3 border-white rounded-4" 
@@ -89,18 +85,18 @@
 
     <footer class="fixed-bottom corPadraoFooter">
         <div class="navbar container justify-content-center text-light">
-            <i class="fa fa-copyright m-1" aria-hidden="true"> Guilherme Costa Manrique</i>
+            <i id="CopyRight" class="fa fa-copyright m-1" aria-hidden="true"></i>
         </div>
     </footer>
 
-    <div class="modal fade" id="modalContato" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal fade" id="ModalContato" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content border border-3 border-white rounded-5 corPadraoPagina">
                 <div class="modal-header">
                     <p class="modal-title fs-5" id="modalLabel">
                         Informações de Contato
                     </p>
-                    <a id="fecharModalContato" class="btn">
+                    <a id="FecharModalContato" class="btn">
                         <i class="fa fa-times fa-inverse fa-2x" aria-hidden="false"></i>
                     </a>
                 </div>
@@ -108,7 +104,7 @@
 
                     <div class="row mb-3">
                         <div class="col-2 text-center">
-                            <a href="https://wa.me/5511981572382/?text=Ol%C3%A1%20Guilherme%21%20Localizei%20seu%20curr%C3%ADculo%20atrav%C3%A9s%20do%20GitHub."
+                            <a id="LinkWhatsapp"
                                 target="_blank"
                                 class="corPadraoFundoVerdeWhatsapp btn border border-3 border-white rounded-4" 
                                 data-bs-toggle="tooltip" 
@@ -118,13 +114,13 @@
                             </a>   
                         </div>
                         <div class="col-8 d-flex align-items-center">
-                            <p class="padronizacaoTagPTexto">+55 11 98157-2382</p>
+                            <p id="NumeroWhatsapp" class="padronizacaoTagPTexto"></p>
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col-2 text-center">
-                            <a href="https://www.linkedin.com/in/guilherme-manrique" 
+                            <a id="LinkLinkedin"
                                 target="_blank"
                                 class="corPadraoFundoAzulLinkedin btn border border-3 border-white rounded-4" 
                                 data-bs-toggle="tooltip" 
@@ -134,13 +130,13 @@
                             </a>  
                         </div>
                         <div class="col-8 d-flex align-items-center">
-                            <p class="padronizacaoTagPTexto">gcostamanrique</p>
+                            <p id="NomeLinkedin" class="padronizacaoTagPTexto"></p>
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col-2 text-center">
-                            <a href="https://github.com/gcostamanrique"
+                            <a id="LinkGithub"
                                 target="_blank"
                                 class="corPadraoFundoRoxoGithub btn border border-3 border-white rounded-4" 
                                 data-bs-toggle="tooltip" 
@@ -150,13 +146,13 @@
                             </a>    
                         </div>
                         <div class="col-8 d-flex align-items-center">
-                            <p class="padronizacaoTagPTexto">gcostamanrique</p>
+                            <p id="NomeGithub" class="padronizacaoTagPTexto"></p>
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col-2 text-center">
-                            <a id="copiarEmail"
+                            <a id="CopiarEmail"
                                 class="corPadraoFundoAmarelo btn border border-3 border-white rounded-4" 
                                 data-bs-toggle="tooltip" 
                                 data-bs-placement="top" 
@@ -165,10 +161,10 @@
                             </a>   
                         </div>
                         <div class="col-8 d-flex align-items-center">
-                            <p class="padronizacaoTagPTexto">gcostamanrique@gmail.com</p>
+                            <p id="Email" class="padronizacaoTagPTexto"></p>
                         </div>
                         <div class="col-2 d-flex justify-content-center align-items-center">
-                            <i id="confirmarCopiaEmail" class="fa fa-check-square fa-lg" aria-hidden="false"></i>
+                            <i id="ConfirmarCopiaEmail" class="fa fa-check-square fa-lg" aria-hidden="false"></i>
                         </div>
                     </div>
                 </div>
@@ -193,13 +189,29 @@
             fetch('https://gcostamanrique.github.io/Visualizacao/JSON/informacoes.json')
                 .then(response => {
                     if (!response.ok) {
-                        console.log("Erro...");
+                        console.log("Erro Response...");
                     }
                     else {
                         console.log("OK carregado!");
-                        console.log(response.json());
+                        return response.json();
                     }
-                })         
+                })
+                .then(data => {
+                    document.getElementById("NomePerfil").textContent = data.nomeperfil;
+                    document.getElementById("ImagemPerfil").src = data.imagemsrc;
+                    document.getElementById("ImagemPerfil").alt = data.imagemdescricao;
+                    document.getElementById("ApresentacaoPerfil").textContent = data.apresentacaoperfil;
+                    document.getElementById("NumeroWhatsapp").textContent = data.numerowhatsapp;
+                    document.getElementById("LinkWhatsapp").href = data.linkwhatsapp;
+                    document.getElementById("NomeLinkedin").textContent = data.nomelinkedin;
+                    document.getElementById("LinkLinkedin").href = data.linklinkedin;
+                    document.getElementById("NomeGithub").textContent = data.nomegithub;
+                    document.getElementById("LinkGithub").href = data.linkgithub;
+                    document.getElementById("Email").textContent = data.email;
+                })
+                .catch(erro => {
+                    console.log("Erro Catch...");
+                })
         });
     </script>
 
@@ -208,22 +220,22 @@
             const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
             const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
             
-            const modalContato = new bootstrap.Modal(document.getElementById("modalContato"));
+            const modalContato = new bootstrap.Modal(document.getElementById("ModalContato"));
             
             const botaoContatoModal = document.getElementById("contatoModal");
             botaoContatoModal.addEventListener("click", () => {
                 modalContato.show();
             });
 
-            const botaoFecharContatoModal = document.getElementById("fecharModalContato");
+            const botaoFecharContatoModal = document.getElementById("FecharModalContato");
             botaoFecharContatoModal.addEventListener("click", () => {
                 modalContato.hide();
             });
 
-            const botaoCopiarEmail = document.getElementById("copiarEmail");
-            const confirmarCopiaEmail = document.getElementById("confirmarCopiaEmail");
+            const botaoCopiarEmail = document.getElementById("CopiarEmail");
+            const confirmarCopiaEmail = document.getElementById("ConfirmarCopiaEmail");
             botaoCopiarEmail.addEventListener("click", () => {
-                navigator.clipboard.writeText("gcostamanrique@gmail.com")
+                navigator.clipboard.writeText(document.getElementById("Email").textContent)
                 .then(() => {
                     confirmarCopiaEmail.classList.add("show");
                     setTimeout(() => {
