@@ -1,0 +1,98 @@
+.padronizacaoPagina {
+    font-family: 'Playwrite US Modern Guides', 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.padronizacaoTagPTitulo01 {
+    font-size: 40px;
+    margin: auto;
+    padding: auto;
+}
+
+.padronizacaoTagPTexto {
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+.larguraPercentualTotal {
+    width: 100%;
+}
+
+.larguraPercentualParte {
+    width: 75%;
+}
+
+.corPadraoNavbar {
+    background-color: #0F1015;
+}
+
+.corPadraoNavbar:hover,
+.corPadraoNavbar:active {
+    background-color: #0F1015 !important;
+}
+
+.corPadraoPagina {
+    background-color: #235151;
+}
+
+.corPadraoPagina:hover,
+.corPadraoPagina:active {
+    background-color: #235151 !important;
+}
+
+.corPadraoFooter {
+    background-color: #0F1015;
+}
+
+.corPadraoFooter:hover,
+.corPadraoFooter:active {
+    background-color: #0F1015 !important;
+}
+
+.corPadraoFundoAmarelo {
+    background-color: #D2A13A;
+}
+
+.corPadraoFundoAmarelo:hover,
+.corPadraoFundoAmarelo:active {
+    background-color: #D2A13A !important;
+}
+
+.corPadraoFundoVerdeWhatsapp {
+    background-color: #25d366;
+}
+
+.corPadraoFundoVerdeWhatsapp:hover,
+.corPadraoFundoVerdeWhatsapp:active {
+    background-color: #25d366 !important;
+}
+
+.corPadraoFundoAzulLinkedin {
+    background-color: #0072B1;
+}
+
+.corPadraoFundoAzulLinkedin:hover,
+.corPadraoFundoAzulLinkedin:active {
+    background-color: #0072B1 !important;
+}
+
+.corPadraoFundoRoxoGithub {
+    background-color: #892CDC;
+}
+
+.corPadraoFundoRoxoGithub:hover,
+.corPadraoFundoRoxoGithub:active {
+    background-color: #892CDC !important;
+}
+
+#confirmarCopiaEmail {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: inline;
+}
+
+#confirmarCopiaEmail.show {
+    opacity: 1;
+}
