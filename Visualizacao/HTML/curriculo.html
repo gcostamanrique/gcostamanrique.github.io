@@ -37,7 +37,8 @@
                     <div class="accordion accordion-flush">
                         <div class="accordion-item mb-3 border-bottom">
                             <div class="accordion-header">
-                                <div id="Contato" class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
+                                <div id="Contato"
+                                    class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
                                     <div class="">
@@ -47,13 +48,63 @@
                             </div>
                             <div id="flush-collapseOne" class="accordion-collapse collapse">
                                 <div class="accordion-body">
-                                    x
+                                    <div class="d-flex flex-row justify-content-start mb-3">
+                                        <div class="text-center me-3">
+                                            <a id="LinkWhatsapp" target="_blank"
+                                                class="corPadraoFundoVerdeWhatsapp btn border border-3 border-white rounded-4"
+                                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Whatsapp">
+                                                <i class="fa fa-whatsapp fa-lg" aria-hidden="false"></i>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <p id="NumeroWhatsapp" class="padronizacaoTagPTexto"></p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row justify-content-start mb-3">
+                                        <div class="text-center me-3">
+                                            <a id="LinkLinkedin" target="_blank"
+                                                class="corPadraoFundoAzulLinkedin btn border border-3 border-white rounded-4"
+                                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin">
+                                                <i class="fa fa-linkedin-square fa-lg" aria-hidden="false"></i>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <p id="NomeLinkedin" class="padronizacaoTagPTexto"></p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row justify-content-start mb-3">
+                                        <div class="text-center me-3">
+                                            <a id="LinkGithub" target="_blank"
+                                                class="corPadraoFundoRoxoGithub btn border border-3 border-white rounded-4"
+                                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GitHub">
+                                                <i class="fa fa-github fa-lg" aria-hidden="false"></i>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <p id="NomeGithub" class="padronizacaoTagPTexto"></p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row justify-content-start mb-3">
+                                        <div class="text-center me-3">
+                                            <a id="CopiarEmail" class="corPadraoFundoAmarelo btn border border-3 border-white rounded-4"
+                                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Email">
+                                                <i class="fa fa-envelope fa-lg" aria-hidden="false"></i>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex align-items-center me-3">
+                                            <p id="Email" class="padronizacaoTagPTexto"></p>
+                                        </div>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <i id="ConfirmarCopiaEmail" class="fa fa-check-square fa-lg" aria-hidden="false"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item mb-3 border-bottom">
                             <div class="accordion-header">
-                                <div id="Formacao" class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
+                                <div id="Formacao"
+                                    class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
                                     <div>
@@ -69,8 +120,9 @@
                         </div>
                         <div class="accordion-item mb-3 border-bottom">
                             <div class="accordion-header">
-                                <div id="Experiencia" class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false" 
+                                <div id="Experiencia"
+                                    class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
                                     <div>
                                         <i class="fa fa-briefcase fa-lg" aria-hidden="true"> </i>
@@ -85,7 +137,8 @@
                         </div>
                         <div class="accordion-item mb-3 border-bottom">
                             <div class="accordion-header">
-                                <div id="Conhecimento" class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
+                                <div id="Conhecimento"
+                                    class="d-flex flex-row justify-content-center align-items-center estruturaPadraoHeaderAccordion collapsed"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
                                     <div>
@@ -121,14 +174,55 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+            fetch('https://gcostamanrique.github.io/Visualizacao/JSON/informacoes.json')
+                .then(response => {
+                    if (!response.ok) {
+                        console.log("Erro Response...");
+                    }
+                    else {
+                        console.log("OK carregado!");
+                        return response.json();
+                    }
+                })
+                .then(data => {
+                    document.getElementById("NumeroWhatsapp").textContent = data.numerowhatsapp;
+                    document.getElementById("LinkWhatsapp").href = data.linkwhatsapp;
+                    document.getElementById("NomeLinkedin").textContent = data.nomelinkedin;
+                    document.getElementById("LinkLinkedin").href = data.linklinkedin;
+                    document.getElementById("NomeGithub").textContent = data.nomegithub;
+                    document.getElementById("LinkGithub").href = data.linkgithub;
+                    document.getElementById("Email").textContent = data.email;
+                    document.getElementById("CopyRight").textContent = data.nomeperfil
+                })
+                .catch(erro => {
+                    console.log("Erro Catch...");
+                })
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
             const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
             const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
-            TooltipECollapse('Contato','Contato');
-            TooltipECollapse('Formacao','Formação');
-            TooltipECollapse('Experiencia','Experiência');
-            TooltipECollapse('Conhecimento','Conhecimento');
+            TooltipECollapse('Contato', 'Contato');
+            TooltipECollapse('Formacao', 'Formação');
+            TooltipECollapse('Experiencia', 'Experiência');
+            TooltipECollapse('Conhecimento', 'Conhecimento');
+
+            const botaoCopiarEmail = document.getElementById("CopiarEmail");
+            const confirmarCopiaEmail = document.getElementById("ConfirmarCopiaEmail");
+            botaoCopiarEmail.addEventListener("click", () => {
+                navigator.clipboard.writeText(document.getElementById("Email").textContent)
+                    .then(() => {
+                        confirmarCopiaEmail.classList.add("show");
+                        setTimeout(() => {
+                            confirmarCopiaEmail.classList.remove("show");
+                        }, 500);
+                    })
+                    .catch(err => console.error("Erro ao copiar o email:", err));
+            });
         });
 
         function TooltipECollapse(elemento, tooltip) {
@@ -136,7 +230,7 @@
             if (element) {
                 element.setAttribute('data-bs-toggle', 'tooltip');
                 element.setAttribute('data-bs-toggle', 'collapse');
-                element.setAttribute('data-bs-title', tooltip);            
+                element.setAttribute('data-bs-title', tooltip);
                 new bootstrap.Tooltip(element);
             } else {
                 console.warn(`Elemento com ID "${elemento}" não encontrado.`);
