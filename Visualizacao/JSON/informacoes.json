@@ -9,5 +9,71 @@
     "linklinkedin" : "https://www.linkedin.com/in/guilherme-manrique",
     "nomegithub" : "gcostamanrique",
     "linkgithub" : "https://github.com/gcostamanrique",
-    "email" : "gcostamanrique@gmail.com"
+    "email" : "gcostamanrique@gmail.com",
+    "localizacao" : [
+        {
+            "titulo" : "Localização",
+            "texto" : "Texto referente a localização"
+        }
+    ],
+    "habilidade" : [
+        {
+            "titulo" : "Habilidade 01",
+            "texto" : "Texto referente a habilidade 01"
+        },
+        {
+            "titulo" : "Habilidade 02",
+            "texto" : "Texto referente a habilidade 02"
+        },
+        {
+            "titulo" : "Habilidade 03",
+            "texto" : "Texto referente a habilidade 03"
+        },
+        {
+            "titulo" : "Habilidade 04",
+            "texto" : "Texto referente a habilidade 04"
+        }
+    ],
+    "formação" : [
+        {
+            "titulo" : "formação",
+            "texto" : "Texto referente a formação"
+        }
+    ],
+    "experiencia" : [
+        {
+            "titulo" : "Experiência 01",
+            "texto" : "Texto referente a Experiência 01"
+        },
+        {
+            "titulo" : "Experiência 02",
+            "texto" : "Texto referente a Experiência 02"
+        },
+        {
+            "titulo" : "Experiência 03",
+            "texto" : "Texto referente a Experiência 03"
+        },
+        {
+            "titulo" : "Experiência 04",
+            "texto" : "Texto referente a Experiência 04"
+        }
+    ],
+    "conhecimento" : [
+        {
+            "titulo" : "Conhecimento 01",
+            "texto" : "Texto referente a Conhecimento 01"
+        },
+        {
+            "titulo" : "Conhecimento 02",
+            "texto" : "Texto referente a Conhecimento 02"
+        },
+        {
+            "titulo" : "Conhecimento 03",
+            "texto" : "Texto referente a Conhecimento 03"
+        },
+        {
+            "titulo" : "Conhecimento 04",
+            "texto" : "Texto referente a Conhecimento 04"
+        }
+    ]
 }
