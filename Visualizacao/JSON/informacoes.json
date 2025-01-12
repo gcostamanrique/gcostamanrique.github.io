@@ -13,67 +13,185 @@
     "localizacao" : [
         {
             "titulo" : "Localização",
-            "texto" : "Texto referente a localização"
+            "texto" : "Vila Santana - São Paulo - SP"
         }
     ],
     "habilidade" : [
         {
-            "titulo" : "Habilidade 01",
-            "texto" : "Texto referente a habilidade 01"
+            "titulo" : "Prudência",
+            "texto" : "Tomo decisões ponderadas, avaliando riscos e consequências, para garantir resultados sustentáveis e bem fundamentados."
         },
         {
-            "titulo" : "Habilidade 02",
-            "texto" : "Texto referente a habilidade 02"
+            "titulo" : "Ética",
+            "texto" : "Mantenho uma postura íntegra e responsável, sempre priorizando a transparência e a honestidade em todas as ações."
         },
         {
-            "titulo" : "Habilidade 03",
-            "texto" : "Texto referente a habilidade 03"
+            "titulo" : "Aprendizado Contínuo",
+            "texto" : "Busco constantemente expandir meus conhecimentos e habilidades, mantendo-me atualizado e pronto para enfrentar novos desafios."
         },
         {
-            "titulo" : "Habilidade 04",
-            "texto" : "Texto referente a habilidade 04"
+            "titulo" : "Empatia",
+            "texto" : "Me coloco no lugar dos outros, buscando compreender suas perspectivas e emoções, o que fortalece a colaboração e o respeito mútuo."
+        },
+        {
+            "titulo" : "Trabalho em Equipe",
+            "texto" : "Acredito que o sucesso vem da colaboração eficaz, onde a união de habilidades e esforços de todos leva a resultados superiores."
+        },
+        {
+            "titulo" : "Equilíbrio Emocional",
+            "texto" : "Mantenho a calma e a clareza de pensamento, mesmo em situações desafiadoras, permitindo-me tomar decisões racionais e assertivas."
+        },
+        {
+            "titulo" : "Adaptabilidade",
+            "texto" : "Estou sempre pronto para ajustar estratégias e abordagens conforme as circunstâncias mudam, com foco na solução de problemas."
+        },
+        {
+            "titulo" : "Boa Comunicação",
+            "texto" : "Expresso minhas ideias de maneira clara e assertiva, garantindo que todos os envolvidos compreendam as informações essenciais."
+        },
+        {
+            "titulo" : "Pensamento Crítico",
+            "texto" : "Analiso problemas e informações de forma lógica e detalhada, buscando soluções inovadoras e fundamentadas para situações complexas."
         }
     ],
     "formacao" : [
         {
-            "titulo" : "formação",
-            "texto" : "Texto referente a formação"
+            "titulo" : "Centro Universitário Senac",
+            "subtitulo" : "Análise e Desenvolvimento de Sistemas",
+            "periodo" : "2021 / 2023 (Concluído)",
+            "texto" : "Utilizando Java como linguagem principal, o curso proporcionou o aprendizado de desenvolvimento, modificação, depuração e teste de aplicações. Também foram abordados temas como arquitetura de computadores, arquitetura de software, criação e manipulação de bancos de dados, padrões de projeto, tecnologias amplamente utilizadas no mercado e novas tecnologias em desenvolvimento."
         }
     ],
     "experiencia" : [
         {
-            "titulo" : "Experiência 01",
-            "texto" : "Texto referente a Experiência 01"
+            "titulo" : "IGB - Industria Gráfica Brasileira",
+            "subtitulo" : "Analista de desenvolvimento full stack",
+            "periodo" : "PJ 2024 / 2024",
+            "texto" : "Minhas responsabilidades incluíam a análise, desenvolvimento e manutenção de aplicações web e APIs desenvolvidas em ASP.NET Core, utilizando o Entity Framework como ORM. Também realizava manipulação, manutenção e criação de tabelas e procedimentos armazenados em bancos de dados SQL Server e PostgreSQL. Além disso, seguíamos as normas de segurança estabelecidas pela ISO 27000, conforme as políticas internas, para garantir o desenvolvimento seguro e manter a certificação da empresa na manipulação de dados sensíveis."
         },
         {
-            "titulo" : "Experiência 02",
-            "texto" : "Texto referente a Experiência 02"
-        },
-        {
-            "titulo" : "Experiência 03",
-            "texto" : "Texto referente a Experiência 03"
-        },
-        {
-            "titulo" : "Experiência 04",
-            "texto" : "Texto referente a Experiência 04"
+            "titulo" : "GGP Associados e Consultoria",
+            "subtitulo" : "Assistente de desenvolvimento full stack",
+            "periodo" : "CLT - 2022 / 2023",
+            "texto" : "Minhas responsabilidades incluíam a análise, depuração e correção de logs, desenvolvimento de novas funcionalidades em aplicações existentes do tipo ASP.NET Core, atendimento a chamados internos e externos relacionados às aplicações, além da criação, atualização e manutenção de tabelas e procedimentos armazenados em banco de dados SQL Server."
         }
     ],
     "conhecimento" : [
         {
-            "titulo" : "Conhecimento 01",
-            "texto" : "Texto referente a Conhecimento 01"
+            "titulo" : "Projeto",
+            "texto" : "ASP.NET Core MVC"
         },
         {
-            "titulo" : "Conhecimento 02",
-            "texto" : "Texto referente a Conhecimento 02"
+            "titulo" : "Projeto",
+            "texto" : "ASP.NET Core API Web"
         },
         {
-            "titulo" : "Conhecimento 03",
-            "texto" : "Texto referente a Conhecimento 03"
+            "titulo" : "Projeto",
+            "texto" : "Windows Forms .NET"
         },
         {
-            "titulo" : "Conhecimento 04",
-            "texto" : "Texto referente a Conhecimento 04"
+            "titulo" : "Projeto",
+            "texto" : "Aplicativos do Console"
+        },
+        {
+            "titulo" : "Projeto",
+            "texto" : "Bibliotecas de Classes"
+        },
+        {
+            "titulo" : "Projeto",
+            "texto" : "Projeto de Teste XUnit"
+        },
+        {
+            "titulo" : "Banco de Dados",
+            "texto" : "SQL Server"
+        },
+        {
+            "titulo" : "Banco de Dados",
+            "texto" : "MySQL"
+        },
+        {
+            "titulo" : "Banco de Dados",
+            "texto" : "PostgreSQL"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "Visual Studio"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "Visual Studio Code"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "SQL Server Configuration Manager"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "SQL Server Management Studio"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "PgAdmin"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "MySQL Workbench"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "GIT"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "GitHub Desktop"
+        },
+        {
+            "titulo" : "Ferramenta",
+            "texto" : "Postman"
+        },
+        {
+            "titulo" : "Framework",
+            "texto" : "Entity Framework"
+        },
+        {
+            "titulo" : "Framework",
+            "texto" : "FluentValidation"
+        },
+        {
+            "titulo" : "Framework",
+            "texto" : "Newtonsoft Json"
+        },
+        {
+            "titulo" : "Framework",
+            "texto" : "Bootstrap"
+        },
+        {
+            "titulo" : "Framework",
+            "texto" : "JQuery e Datatables"
+        },
+        {
+            "titulo" : "Framework",
+            "texto" : "Ajax e Fetch"
+        },
+        {
+            "titulo" : "Padrão de Projeto",
+            "texto" : "Repository"
+        },
+        {
+            "titulo" : "Padrão de Projeto",
+            "texto" : "Unit Of Work"
+        },
+        {
+            "titulo" : "Padrão de Projeto",
+            "texto" : "Factory"
+        },
+        {
+            "titulo" : "Padrão de Projeto",
+            "texto" : "Strategy"
+        },
+        {
+            "titulo" : "Padrão de Projeto",
+            "texto" : "Observer"
         }
     ]
 }
