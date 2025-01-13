@@ -172,5 +172,12 @@
         {
             "texto" : "Observer"
         }
+    ],
+    "projeto" : [
+        {
+            "titulo" : "AutoresEFrases",
+            "texto" : "AutoresEFrases é um projeto desenvolvido em ASP.NET Core MVC que permite pesquisar e incluir autores e frases em um banco de dados SQL Server.",
+            "link" : "https://github.com/gcostamanrique/AutoresEFrases"
+        }
     ]
 }
