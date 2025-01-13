@@ -1,6 +1,6 @@
 .padronizacaoPagina {
     font-family: 'Playwrite US Modern Guides', 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #FFFFFF;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .animacaoVelocidadePadrao {
-    --fa-animation-duration: 3s;
+    --fa-animation-duration: 4s;
 }
 
 .animacaoVelocidadeLenta {
