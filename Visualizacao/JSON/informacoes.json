@@ -76,121 +76,100 @@
             "texto" : "Minhas responsabilidades incluíam a análise, depuração e correção de logs, desenvolvimento de novas funcionalidades em aplicações existentes do tipo ASP.NET Core, atendimento a chamados internos e externos relacionados às aplicações, além da criação, atualização e manutenção de tabelas e procedimentos armazenados em banco de dados SQL Server."
         }
     ],
-    "conhecimento" : [
+    "conhecimentoProjeto" : [
         {
-            "titulo" : "Projeto",
             "texto" : "ASP.NET Core MVC"
         },
         {
-            "titulo" : "Projeto",
             "texto" : "ASP.NET Core API Web"
         },
         {
-            "titulo" : "Projeto",
             "texto" : "Windows Forms .NET"
         },
         {
-            "titulo" : "Projeto",
             "texto" : "Aplicativos do Console"
         },
         {
-            "titulo" : "Projeto",
             "texto" : "Bibliotecas de Classes"
         },
         {
-            "titulo" : "Projeto",
             "texto" : "Projeto de Teste XUnit"
-        },
+        }
+    ],
+    "conhecimentoBancoDados" : [
         {
-            "titulo" : "Banco de Dados",
             "texto" : "SQL Server"
         },
         {
-            "titulo" : "Banco de Dados",
             "texto" : "MySQL"
         },
         {
-            "titulo" : "Banco de Dados",
             "texto" : "PostgreSQL"
-        },
+        }
+    ],
+    "conhecimentoFerramenta" : [
         {
-            "titulo" : "Ferramenta",
             "texto" : "Visual Studio"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "Visual Studio Code"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "SQL Server Configuration Manager"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "SQL Server Management Studio"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "PgAdmin"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "MySQL Workbench"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "GIT"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "GitHub Desktop"
         },
         {
-            "titulo" : "Ferramenta",
             "texto" : "Postman"
-        },
+        }
+    ],
+    "conhecimentoFramework" : [
         {
-            "titulo" : "Framework",
             "texto" : "Entity Framework"
         },
         {
-            "titulo" : "Framework",
             "texto" : "FluentValidation"
         },
         {
-            "titulo" : "Framework",
             "texto" : "Newtonsoft Json"
         },
         {
-            "titulo" : "Framework",
             "texto" : "Bootstrap"
         },
         {
-            "titulo" : "Framework",
             "texto" : "JQuery e Datatables"
         },
         {
-            "titulo" : "Framework",
             "texto" : "Ajax e Fetch"
-        },
+        }
+    ],
+    "conhecimentoPadraoProjeto" : [
         {
-            "titulo" : "Padrão de Projeto",
             "texto" : "Repository"
         },
         {
-            "titulo" : "Padrão de Projeto",
             "texto" : "Unit Of Work"
         },
         {
-            "titulo" : "Padrão de Projeto",
             "texto" : "Factory"
         },
         {
-            "titulo" : "Padrão de Projeto",
             "texto" : "Strategy"
         },
         {
-            "titulo" : "Padrão de Projeto",
             "texto" : "Observer"
         }
     ]
