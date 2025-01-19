@@ -178,6 +178,11 @@
             "titulo" : "AutoresEFrases",
             "texto" : "AutoresEFrases é um projeto desenvolvido em ASP.NET Core MVC que permite pesquisar e incluir autores e frases em um banco de dados SQL Server.",
             "link" : "https://github.com/gcostamanrique/AutoresEFrases"
+        },
+        {
+            "titulo" : "TheRickAndMortyAPI",
+            "texto" : "O objetivo do TheRickAndMortyAPI é demonstrar algumas técnicas de consulta em JavaScript, ordenação e apresentação de dados utilizando o DataTable.",
+            "link" : "https://github.com/gcostamanrique/TheRickAndMortyAPI"
         }
     ]
 }
