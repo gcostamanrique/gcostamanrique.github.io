@@ -282,14 +282,14 @@
 
             document.getElementById("ApresentacaoPerfil").appendChild(CriarCard2(dados.nomeperfil, dados.apresentacaoperfil));
 
-            document.getElementById("NumeroWhatsapp").textContent = dados.numerowhatsapp;
+            document.getElementById("NumeroWhatsapp").innerHTML  = dados.numerowhatsapp;
             document.getElementById("LinkWhatsapp").href = dados.linkwhatsapp;
-            document.getElementById("NomeLinkedin").textContent = dados.nomelinkedin;
+            document.getElementById("NomeLinkedin").innerHTML  = dados.nomelinkedin;
             document.getElementById("LinkLinkedin").href = dados.linklinkedin;
-            document.getElementById("NomeGithub").textContent = dados.nomegithub;
+            document.getElementById("NomeGithub").innerHTML  = dados.nomegithub;
             document.getElementById("LinkGithub").href = dados.linkgithub;
-            document.getElementById("Email").textContent = dados.email;
-            document.getElementById("CopyRight").textContent = dados.nomeperfil
+            document.getElementById("Email").innerHTML  = dados.email;
+            document.getElementById("CopyRight").innerHTML  = dados.nomeperfil
             dados.localizacao.forEach(elemento => {
                 document.getElementById("cardCollection02").appendChild(CriarCard2(elemento.titulo, elemento.texto));
             });
@@ -386,7 +386,7 @@
 
             var cardText = document.createElement("p");
             cardText.className = "card-text";
-            cardText.textContent = texto;
+            cardText.innerHTML  = texto;
 
             cardBody.appendChild(cardText);
             card.appendChild(cardBody);
@@ -407,11 +407,11 @@
 
             var cardTitle = document.createElement("h5");
             cardTitle.className = "card-title";
-            cardTitle.textContent = titulo;
+            cardTitle.innerHTML  = titulo;
 
             var cardText = document.createElement("p");
             cardText.className = "card-text";
-            cardText.textContent = texto;
+            cardText.innerHTML  = texto;
 
             cardBody.appendChild(cardTitle);
             cardBody.appendChild(cardText);
@@ -433,11 +433,11 @@
 
             var cardTitle = document.createElement("h5");
             cardTitle.className = "card-title";
-            cardTitle.textContent = titulo;
+            cardTitle.innerHTML  = titulo;
 
             var cardText = document.createElement("p");
             cardText.className = "card-text";
-            cardText.textContent = texto;
+            cardText.innerHTML  = texto;
 
             var divLink = document.createElement('div');
             divLink.className = 'text-center fa-fade fadePadrao animacaoVelocidadePadrao';
@@ -477,19 +477,19 @@
 
             var cardTitle = document.createElement("h5");
             cardTitle.className = "card-title";
-            cardTitle.textContent = titulo;
+            cardTitle.innerHTML  = titulo;
 
             var cardSubtitle = document.createElement("h5");
             cardSubtitle.className = "card-title";
-            cardSubtitle.textContent = subtitulo;
+            cardSubtitle.innerHTML  = subtitulo;
 
             var cardPeriod = document.createElement("h5");
             cardPeriod.className = "card-title";
-            cardPeriod.textContent = periodo;
+            cardPeriod.innerHTML  = periodo;
 
             var cardText = document.createElement("p");
             cardText.className = "card-text";
-            cardText.textContent = texto;
+            cardText.innerHTML  = texto;
 
             cardBody.appendChild(cardTitle);
             cardBody.appendChild(cardSubtitle);
