@@ -60,6 +60,12 @@
             "subtitulo" : "Análise e Desenvolvimento de Sistemas",
             "periodo" : "2021 / 2023 (Concluído)",
             "texto" : "Durante a graduação em Análise e Desenvolvimento de Sistemas, foram estudados diversos aspectos fundamentais da computação, abrangendo desde lógica de programação até o desenvolvimento de aplicações web e a estruturação de bancos de dados.<br><br>A linguagem Java foi utilizada como base para consolidar conceitos de programação, possibilitando a criação de diferentes tipos de aplicações, a análise de softwares existentes, a produção de testes unitários e a adoção de padrões de desenvolvimento.<br><br>Além disso, foram abordados temas relacionados à análise de requisitos, destacando a importância de compreender e implementar soluções de forma eficiente e segura.<br><br>Também foram exploradas as etapas do ciclo de desenvolvimento de software, com foco na organização e estruturação adequada das aplicações.<br><br>No que se refere a bancos de dados, a formação incluiu a criação, manipulação e conexão de sistemas com bancos relacionais, visando otimizar a funcionalidade e a eficiência das aplicações.<br><br>O desenvolvimento web também esteve presente na grade curricular, com o estudo de frameworks como Spring e Bootstrap, proporcionando uma base sólida para a construção de aplicações modernas.<br><br>Além da parte voltada ao desenvolvimento de software, a graduação também abrangeu conceitos de hardware, proporcionando uma visão mais ampla sobre o funcionamento dos sistemas computacionais e sua integração com o software.<br><br>Essa abordagem contribuiu para uma compreensão mais completa dos fundamentos da computação e da importância da escolha adequada da arquitetura para cada solução tecnológica."
+        },
+        {
+            "titulo" : "FIAP",
+            "subtitulo" : "Ciência de Dados",
+            "periodo" : "2025 / 2026 (Cursando)",
+            "texto" : "O curso tende a passar por matérias como bancos de dados relacionais e SQL, análise de arquitetura e NoSQL, arquitetura de Big Data e integração de dados, governança de dados, gestão de segurança de dados, aplicações de banco de dados, ciência de dados,estatística para ciência de dados, aprendizado de maquina, dentre outros conteúdos mais avançados."
         }
     ],
     "experiencia" : [
